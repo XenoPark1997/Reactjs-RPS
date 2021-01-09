@@ -3,6 +3,7 @@ body{
   padding:0;
   background-color: #1A182D;
 }
+
 .main{
   position: absolute;
   background-color: #141324;
@@ -12,6 +13,7 @@ body{
   left:37%;
   top: 20%;
 }
+
 .player{
   position: absolute;
   border:2px solid #40689A;
@@ -22,6 +24,7 @@ body{
   margin-left: 40px;
   text-align: center;
 }
+
 .scoreboard{
   position: absolute;
   margin:52px 0 0 0;
@@ -31,6 +34,7 @@ body{
   font-weight: bold;
   color: #40689A;
 }
+
 .opponent{
   position: relative;
   border:2px solid #40689A;
@@ -42,12 +46,14 @@ body{
   float: right;
   text-align: center;
 }
+
 .top_label{
   font-family: 'Poppins', sans-serif;
   font-size: 24px;
   font-weight: bold;
   color: #40689A;
 }
+
 .middle_label{
   position: absolute;
   left:27%;
@@ -57,6 +63,7 @@ body{
   font-weight: bold;
   color:#ACAFC0;
 }
+
 .item{
   display: block;
   width: 100%;
@@ -65,7 +72,9 @@ body{
   left:17%;
   top:40%;
 }
+
 .item_button{
+  display: none;
   border-style: none;
   border-radius: 5px;
   width: 20%;
@@ -78,7 +87,24 @@ body{
   background-color: #1A182D;
   color: #ACAFC0;
 }
+
+.img_player{
+  display: block;
+  position: absolute;
+  width: 20%;
+  height: 35%;
+}
+
+.img_opponent{
+  display: block;
+  position: absolute;
+  width: 20%;
+  height: 35%;
+  left:44%;
+}
+
 .proceed{
+  display: none;
   position: relative;
   left:29%;
   bottom:15%;
@@ -92,14 +118,33 @@ body{
   font-size: 22px;
   font-weight: bold;
 }
+
+.play_again{
+  display: block;
+  position: relative;
+  left:29%;
+  bottom:15%;
+  width:40%;
+  padding:10px;
+  height:auto;
+  border-style: none;
+  border-radius: 5px;
+  background-color: #40689A;
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+
 img {
   width:65%;
   margin:5px;
 }
+
 .item_button:hover{
   background-color: #40689A;
 }
-.proceed:hover{
+
+.proceed:hover, .play_again:hover{
   background-color: #02112e;
   color: #ACAFC0;
 }
